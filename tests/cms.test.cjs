@@ -1,0 +1,7 @@
+const {test}=require('node:test');const assert=require('node:assert/strict');const {validate,defaults,authorized,sameOrigin}=require('../lib/cms.cjs');
+test('accepts original site content',()=>assert.equal(validate(defaults),true));
+test('rejects script URLs in every media list',()=>{for(const section of ['gallery','videos','reviews']){const d=structuredClone(defaults);d[section][0].image='javascript:alert(1)';assert.equal(validate(d),false)}});
+test('rejects script review source links',()=>{const d=structuredClone(defaults);d.reviews[0].url='javascript:alert(1)';assert.equal(validate(d),false)});
+test('rejects lost text fields and invalid categories',()=>{let d=structuredClone(defaults);delete d.texts['text-0'];assert.equal(validate(d),false);d=structuredClone(defaults);d.gallery[0].category='other';assert.equal(validate(d),false)});
+test('empty galleries and testimonials are allowed',()=>{const d=structuredClone(defaults);d.gallery=[];d.reviews=[];assert.equal(validate(d),true)});
+test('requires full bearer key and matching origin',()=>{process.env.CMS_ADMIN_KEY='x'.repeat(64);assert.equal(authorized({headers:{}}),false);assert.equal(authorized({headers:{authorization:'Bearer '+'x'.repeat(64)}}),true);assert.equal(authorized({headers:{authorization:'Bearer '+'y'.repeat(64)}}),false);assert.equal(sameOrigin({headers:{origin:'https://evil.example',host:'terrazasera.vercel.app'}}),false)});

@@ -1,0 +1,12 @@
+window.cmsReady=(async()=>{
+ const esc=x=>String(x||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ let d;try{const r=await fetch('/api/content',{cache:'no-store'});if(!r.ok)throw Error();d=(await r.json()).content}catch{d=await(await fetch('/content-defaults.json')).json()}
+ if(location.pathname==='/admin'||location.pathname==='/admin.html')return d;
+ const preview=new URLSearchParams(location.search).get('preview')==='1';if(preview){try{const draft=JSON.parse(sessionStorage.getItem('terraza-preview'));if(draft)d=draft}catch{}}
+ document.querySelectorAll('[data-cms-text]').forEach(el=>{const t=d.texts[el.dataset.cmsText];if(typeof t==='string')el.textContent=t});
+ document.querySelectorAll('[data-cms-image]').forEach(el=>{const v=d.images[el.dataset.cmsImage];if(v){if(el.getAttribute('src')!==v.src&&el.parentElement.tagName==='PICTURE')el.parentElement.querySelectorAll('source').forEach(x=>x.remove());el.src=v.src;el.alt=v.alt}});
+ const reels=document.querySelector('.reels');if(reels)reels.innerHTML=d.videos.map(v=>`<a href="${esc(v.url)}" target="_blank" rel="noopener noreferrer"><img src="${esc(v.image)}" alt="${esc(v.title)}" loading="lazy"><span class="play">▶</span><div><small>ASSISTIR AO VÍDEO ↗</small><h3>${esc(v.title)}</h3></div></a>`).join('');
+ const slides=document.querySelector('#testimonial-slides');if(slides)slides.innerHTML=d.reviews.map((v,i)=>`<article class="testimonial-slide" role="group" aria-roledescription="slide" aria-label="${i+1} de ${d.reviews.length}" ${i?'hidden':''}><div class="guest-story"><figure><img src="${esc(v.image)}" alt="${esc(v.caption||v.author)}" loading="lazy"><figcaption>${esc(v.caption)}</figcaption></figure><div><p class="eyebrow">${esc(v.title)}</p>${v.badge?`<div class="stars">${esc(v.badge)}</div>`:""}${v.storyTitle?`<h3 class="story-title">${esc(v.storyTitle)}</h3>`:""}<blockquote>${esc(v.quote)}</blockquote><p class="review-author">${esc(v.author)} <span>${esc(v.detail)}</span></p>${v.extraQuote?`<blockquote class="short-quote">${esc(v.extraQuote)}</blockquote><p class="review-author">${esc(v.extraAuthor)}</p>`:''}<a class="underlined" href="${esc(v.url)}" target="_blank" rel="noopener noreferrer">Ver publicação original ↗</a></div></div></article>`).join('');
+ const count=document.querySelector('#testimonial-count');if(count)count.textContent=d.reviews.length?`1 / ${d.reviews.length}`:'Nenhum relato';document.querySelectorAll('.carousel-controls button').forEach(b=>b.disabled=d.reviews.length<2);
+ return d;
+})();

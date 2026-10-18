@@ -1,0 +1,17 @@
+{
+  "name": "terrazasera",
+  "version": "1.0.0",
+  "description": "Pr\u00e9via responsiva do site da cobertura em Meia Praia, Itapema/SC. HTML, CSS e JavaScript, sem instala\u00e7\u00e3o ou build.",
+  "main": "app.js",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@neondatabase/serverless": "1.2.0"
+  },
+  "private": true
+}

@@ -1,0 +1,470 @@
+{
+  "texts": {
+    "text-0": {
+      "group": "Informações",
+      "label": "Pular para o conteúdo"
+    },
+    "text-1": {
+      "group": "Informações",
+      "label": "☼"
+    },
+    "text-2": {
+      "group": "Informações",
+      "label": "TERRAZA SÉRA"
+    },
+    "text-3": {
+      "group": "Informações",
+      "label": "MEIA PRAIA · ITAPEMA"
+    },
+    "text-4": {
+      "group": "Informações",
+      "label": "A cobertura"
+    },
+    "text-5": {
+      "group": "Informações",
+      "label": "Ambientes"
+    },
+    "text-6": {
+      "group": "Informações",
+      "label": "Experiências"
+    },
+    "text-7": {
+      "group": "Informações",
+      "label": "Relato de Clientes"
+    },
+    "text-8": {
+      "group": "Informações",
+      "label": "Localização"
+    },
+    "text-9": {
+      "group": "Informações",
+      "label": "Planejar estadia ↗"
+    },
+    "text-10": {
+      "group": "inicio",
+      "label": "SEU REFÚGIO EM MEIA PRAIA, ITAPEMA · SC"
+    },
+    "text-11": {
+      "group": "inicio",
+      "label": "O mar como cenário."
+    },
+    "text-12": {
+      "group": "inicio",
+      "label": "Você, presente."
+    },
+    "text-13": {
+      "group": "inicio",
+      "label": "Abra espaço para os dias sem pressa."
+    },
+    "text-14": {
+      "group": "inicio",
+      "label": "Uma cobertura para reunir quem você ama."
+    },
+    "text-15": {
+      "group": "inicio",
+      "label": "Viva esses dias aqui"
+    },
+    "text-16": {
+      "group": "inicio",
+      "label": "↗"
+    },
+    "text-17": {
+      "group": "inicio",
+      "label": "Explore a cobertura ↓"
+    },
+    "text-18": {
+      "group": "inicio",
+      "label": "12º ANDAR · VISTA PARA O MAR"
+    },
+    "text-19": {
+      "group": "inicio",
+      "label": "Desacelere. Você chegou."
+    },
+    "text-20": {
+      "group": "Informações",
+      "label": "03"
+    },
+    "text-21": {
+      "group": "Informações",
+      "label": "suítes para descansar"
+    },
+    "text-22": {
+      "group": "Informações",
+      "label": "Até"
+    },
+    "text-23": {
+      "group": "Informações",
+      "label": "10"
+    },
+    "text-24": {
+      "group": "Informações",
+      "label": "hóspedes"
+    },
+    "text-25": {
+      "group": "Informações",
+      "label": "02"
+    },
+    "text-26": {
+      "group": "Informações",
+      "label": "vagas de garagem"
+    },
+    "text-27": {
+      "group": "Informações",
+      "label": "∞"
+    },
+    "text-28": {
+      "group": "Informações",
+      "label": "memórias para levar"
+    },
+    "text-29": {
+      "group": "Informações",
+      "label": "★"
+    },
+    "text-30": {
+      "group": "Informações",
+      "label": "5,0"
+    },
+    "text-31": {
+      "group": "Informações",
+      "label": "/ 5"
+    },
+    "text-32": {
+      "group": "Informações",
+      "label": "20 avaliações no Airbnb"
+    },
+    "text-33": {
+      "group": "Informações",
+      "label": "Preferido dos hóspedes"
+    },
+    "text-34": {
+      "group": "Informações",
+      "label": "Entre o top 1% dos anúncios elegíveis*"
+    },
+    "text-35": {
+      "group": "Informações",
+      "label": "Rodrigo · Superhost"
+    },
+    "text-36": {
+      "group": "Informações",
+      "label": "Conferir no Airbnb ↗"
+    },
+    "text-37": {
+      "group": "Informações",
+      "label": "*Classificação exibida pelo Airbnb, baseada em avaliações, comentários e confiab"
+    },
+    "text-38": {
+      "group": "cobertura",
+      "label": "CONFORTO COM HORIZONTE ABERTO"
+    },
+    "text-39": {
+      "group": "cobertura",
+      "label": "Tem lugares que"
+    },
+    "text-40": {
+      "group": "cobertura",
+      "label": "fazem a gente"
+    },
+    "text-41": {
+      "group": "cobertura",
+      "label": "se sentir em casa."
+    },
+    "text-42": {
+      "group": "cobertura",
+      "label": "O café se estende. A conversa continua. Lá fora, o azul muda a cada hora. Aqui d"
+    },
+    "text-43": {
+      "group": "cobertura",
+      "label": "No Terraza Séra, os detalhes acolhem e a vista convida a respirar mais devagar."
+    },
+    "text-44": {
+      "group": "cobertura",
+      "label": "Conheça seu próximo destino"
+    },
+    "text-45": {
+      "group": "cobertura",
+      "label": "↗"
+    },
+    "text-46": {
+      "group": "cobertura",
+      "label": "Um convite para ficar."
+    },
+    "text-47": {
+      "group": "ambientes",
+      "label": "CONHEÇA CADA CANTO"
+    },
+    "text-48": {
+      "group": "ambientes",
+      "label": "Feito para"
+    },
+    "text-49": {
+      "group": "ambientes",
+      "label": "se sentir bem."
+    },
+    "text-50": {
+      "group": "ambientes",
+      "label": "Imagens reais da cobertura."
+    },
+    "text-51": {
+      "group": "ambientes",
+      "label": "Abra uma foto e imagine seus dias aqui."
+    },
+    "text-52": {
+      "group": "Informações",
+      "label": "LEVE SÓ A VONTADE DE DESCANSAR"
+    },
+    "text-53": {
+      "group": "Informações",
+      "label": "Os detalhes cuidam"
+    },
+    "text-54": {
+      "group": "Informações",
+      "label": "do"
+    },
+    "text-55": {
+      "group": "Informações",
+      "label": "resto."
+    },
+    "text-56": {
+      "group": "Informações",
+      "label": "❋"
+    },
+    "text-57": {
+      "group": "Informações",
+      "label": "Clima de conforto"
+    },
+    "text-58": {
+      "group": "Informações",
+      "label": "Ar-condicionado e Smart TVs."
+    },
+    "text-59": {
+      "group": "Informações",
+      "label": "♧"
+    },
+    "text-60": {
+      "group": "Informações",
+      "label": "À mesa, juntos"
+    },
+    "text-61": {
+      "group": "Informações",
+      "label": "Cozinha equipada e varanda com churrasqueira."
+    },
+    "text-62": {
+      "group": "Informações",
+      "label": "≈"
+    },
+    "text-63": {
+      "group": "Informações",
+      "label": "Praticidade na estadia"
+    },
+    "text-64": {
+      "group": "Informações",
+      "label": "Wi-Fi, enxoval e máquina lava e seca."
+    },
+    "text-65": {
+      "group": "Informações",
+      "label": "☼"
+    },
+    "text-66": {
+      "group": "Informações",
+      "label": "Depois da praia"
+    },
+    "text-67": {
+      "group": "Informações",
+      "label": "Lava-pés e box para itens de praia."
+    },
+    "text-68": {
+      "group": "memorias",
+      "label": "UM POUCO DA VIDA POR AQUI"
+    },
+    "text-69": {
+      "group": "memorias",
+      "label": "A experiência,"
+    },
+    "text-70": {
+      "group": "memorias",
+      "label": "em movimento."
+    },
+    "text-71": {
+      "group": "memorias",
+      "label": "Siga @terrazasera ↗"
+    },
+    "text-72": {
+      "group": "relatos",
+      "label": "QUEM VIVEU, CONTA"
+    },
+    "text-73": {
+      "group": "relatos",
+      "label": "Relato de"
+    },
+    "text-74": {
+      "group": "relatos",
+      "label": "Clientes"
+    },
+    "text-75": {
+      "group": "relatos",
+      "label": "Gente de verdade. Encontros que viram boas lembranças."
+    },
+    "text-76": {
+      "group": "anfitriao",
+      "label": "QUEM RECEBE VOCÊ · SUPERHOST NO AIRBNB"
+    },
+    "text-77": {
+      "group": "anfitriao",
+      "label": "Conheça o"
+    },
+    "text-78": {
+      "group": "anfitriao",
+      "label": "Rodrigo."
+    },
+    "text-79": {
+      "group": "anfitriao",
+      "label": "Proprietário e anfitrião do Terraza Séra, Rodrigo coloca o acolhimento no centro"
+    },
+    "text-80": {
+      "group": "anfitriao",
+      "label": "Aqui, receber também é criar conexões — como mostram as fotos e as lembranças co"
+    },
+    "text-81": {
+      "group": "anfitriao",
+      "label": "Conheça o anúncio e fale com o anfitrião ↗"
+    },
+    "text-82": {
+      "group": "localizacao",
+      "label": "MEIA PRAIA · ITAPEMA · SANTA CATARINA"
+    },
+    "text-83": {
+      "group": "localizacao",
+      "label": "O destino é lindo."
+    },
+    "text-84": {
+      "group": "localizacao",
+      "label": "O ritmo é seu."
+    },
+    "text-85": {
+      "group": "localizacao",
+      "label": "Praia, passeios e uma pausa para aproveitar Itapema. Uma estadia com o mar por p"
+    },
+    "text-86": {
+      "group": "localizacao",
+      "label": "Explore Meia Praia no mapa ↗"
+    },
+    "text-87": {
+      "group": "localizacao",
+      "label": "O endereço completo é informado pelo anfitrião após a confirmação da reserva."
+    },
+    "text-88": {
+      "group": "localizacao",
+      "label": "27° S"
+    },
+    "text-89": {
+      "group": "localizacao",
+      "label": "um lugar para voltar."
+    },
+    "text-90": {
+      "group": "Informações",
+      "label": "ANTES DE FAZER AS MALAS"
+    },
+    "text-91": {
+      "group": "Informações",
+      "label": "Suas dúvidas,"
+    },
+    "text-92": {
+      "group": "Informações",
+      "label": "com calma."
+    },
+    "text-93": {
+      "group": "Informações",
+      "label": "Quantas pessoas podem se hospedar?"
+    },
+    "text-94": {
+      "group": "Informações",
+      "label": "A capacidade anunciada atualmente é de até 10 hóspedes. Consulte a configuração "
+    },
+    "text-95": {
+      "group": "Informações",
+      "label": "Como consultar valores e datas?"
+    },
+    "text-96": {
+      "group": "Informações",
+      "label": "Use o botão de disponibilidade para consultar datas, tarifas e regras atualizada"
+    },
+    "text-97": {
+      "group": "Informações",
+      "label": "A cobertura tem garagem?"
+    },
+    "text-98": {
+      "group": "Informações",
+      "label": "São duas vagas. Confirme com o anfitrião a compatibilidade com o tamanho dos seu"
+    },
+    "text-99": {
+      "group": "Informações",
+      "label": "Como funciona o check-in?"
+    },
+    "text-100": {
+      "group": "Informações",
+      "label": "A chegada é combinada com o anfitrião. Os horários, instruções e condições devem"
+    },
+    "text-101": {
+      "group": "reservar",
+      "label": "SEUS PRÓXIMOS DIAS LEVES"
+    },
+    "text-102": {
+      "group": "reservar",
+      "label": "O horizonte está aqui."
+    },
+    "text-103": {
+      "group": "reservar",
+      "label": "Só falta a sua data."
+    },
+    "text-104": {
+      "group": "reservar",
+      "label": "Valores e disponibilidade são confirmados no Airbnb."
+    },
+    "text-105": {
+      "group": "reservar",
+      "label": "Prefere conversar? Fale pelo Instagram ↗"
+    },
+    "text-106": {
+      "group": "Informações",
+      "label": "☼"
+    },
+    "text-107": {
+      "group": "Informações",
+      "label": "TERRAZA SÉRA"
+    },
+    "text-108": {
+      "group": "Informações",
+      "label": "MEIA PRAIA · ITAPEMA"
+    },
+    "text-109": {
+      "group": "Informações",
+      "label": "Onde a vista encanta."
+    },
+    "text-110": {
+      "group": "Informações",
+      "label": "E os momentos ficam."
+    },
+    "text-111": {
+      "group": "Informações",
+      "label": "Instagram ↗"
+    },
+    "text-112": {
+      "group": "Informações",
+      "label": "Airbnb ↗"
+    },
+    "text-113": {
+      "group": "Informações",
+      "label": "©"
+    },
+    "text-114": {
+      "group": "Informações",
+      "label": "Terraza Séra · Prévia para apresentação"
+    }
+  },
+  "images": {
+    "image-0": "Vista do mar a partir do Terraza Séra, com tratamento de nitidez",
+    "image-1": "Mesa posta com luz natural e vista para o mar",
+    "image-2": "Rodrigo, proprietário e anfitrião do Terraza Séra, na varanda",
+    "image-3": "Orla de Meia Praia vista da cobertura"
+  }
+}
